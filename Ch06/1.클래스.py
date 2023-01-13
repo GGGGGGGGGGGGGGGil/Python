@@ -20,7 +20,7 @@ sonata.show()
 kb = Account('국민은행', '351-21-1001', '길은섭', 10000)
 kb.deposit(50000)
 kb.withdraw(5000)
-kb.balance += 5000
+kb._balance += 5000
 kb.show()
 
 wr = Account('우리은행', '444-44-5555', '장보고', 1000000000)
